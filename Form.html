@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <hr>
+      <form action="mailto:mark.litfin@yahoo.com" method="POST" enctype="text/plain">
+				<h3>Enter a message and your contact info here and I will respond as soon as possible</h3>
+        <section class="email">
+          <label for="email">Email Address</label>
+			<input type="email" id="email" name="email" required>
+        </section>
+		<section class="message">
+          <label for="message">Please leave me a short message</label>
+		   </br>
+    			<textarea rows="7" cols="50" maxlength="500" name="message" id="message" required></textarea>
+        </section>
+        <section class="submission">
+          <input type="submit" value="Submit">
+        </section>
+      </form>
+    </section>
+  </body>
+</html>
