@@ -19,8 +19,15 @@
 			</nav>
 		<hr/>
 		<nav>
-			<div class="contact-btn"><href=mailto:mark.litfin@yahoo.com?subject="From the Webpage"><a>Contact</a>
+			<div class="contact-btn" ><a href="JavaScript:newPopup('Form.html');">Contact</a>
 			</div>
 		</nav>
 	</body>
 </html>
+<script type="text/javascript">
+// Popup window code
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=350,width=500,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
